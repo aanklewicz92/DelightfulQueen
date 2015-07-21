@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scale xmlns:android="http://schemas.android.com/apk/res/android"
+       android:duration="500"
+       android:fillAfter="true"
+       android:fillEnabled="true"
+       android:fromXScale="0.5"
+       android:fromYScale="0.5"
+       android:interpolator="@android:interpolator/overshoot"
+       android:toXScale="2.0"
+       android:toYScale="2.0">
+
+</scale>

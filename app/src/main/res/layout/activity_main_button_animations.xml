@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:padding="@dimen/default_layout_padding">
 
     <Button
         android:id="@+id/activity_main_btn_translate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginBottom="@dimen/default_layout_padding"
         android:text="@string/translate"/>
 
@@ -17,6 +18,7 @@
         android:id="@+id/activity_main_btn_rotate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginBottom="@dimen/default_layout_padding"
         android:text="@string/rotate"/>
 
@@ -24,6 +26,7 @@
         android:id="@+id/activity_main_btn_scale"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginBottom="@dimen/default_layout_padding"
         android:text="@string/scale"/>
 
@@ -31,6 +34,7 @@
         android:id="@+id/activity_main_btn_alpha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginBottom="@dimen/default_layout_padding"
         android:text="@string/alpha"/>
 
@@ -38,9 +42,9 @@
         android:id="@+id/activity_main_btn_move"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginBottom="@dimen/default_layout_padding"
         android:text="@string/move"/>
-
 
 
 </LinearLayout>
